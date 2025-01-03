@@ -25,6 +25,7 @@ class OrdersController < ApplicationController
     @order.user = current_user
     @order.product_ids = session[:cart] || [] 
     @order.total_price = calculate_total_price(@order.product_ids)
+    render json
 
     if @order.save
       session[:cart] = [] 
