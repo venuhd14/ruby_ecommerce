@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%
+=begin%>
+    <title> ByteBasket</title>
+    <%
+=end%>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="application.css">
+</head>
+<%
+=begin%>
+
+<body>
+    <div class="top-left-name">
+        ByteBasket
+    </div>
+
+    <body>
+        <%
+=end%>
+        <div class="centered-text">
+            <h1>Welcome to the Ecommerce-Store</h1>
+            <h2> Your One-Stop Shop for Cutting-Edge Tech </h2>
+            <p><%= link_to 'View Products', products_path, class: "cta-button" %></p>
+            <p><%= link_to 'Cart', cart_path, class:"cta-button" %></p>
+        </div>
+    </body>
+
+</html>

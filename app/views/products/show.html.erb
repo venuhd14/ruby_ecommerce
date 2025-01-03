@@ -1,0 +1,21 @@
+<h1><%= @product.name %></h1>
+<div class="product-detail-grid">
+    <div class="product-detail-item">
+    </div>
+
+    <div class="product-detail-item">
+        <p><%= @product.description %></p>
+        <p><%= number_to_currency(@product.price) %></p>
+
+        <%= form_with url: add_cart_path(product_id: @product.id), method: :post, data: { turbo: false } do %>
+        <%= submit_tag 'Add to Cart' %>
+        <% end %>
+
+        <br>
+    </div>
+
+    <div class="product-detail-item">
+
+        <%= link_to 'Back to Products', products_path %> | <%= link_to 'Home', root_path %>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<h1>Remove Product from Cart</h1>
+
+<%= form_with url: cart_remove_path, method: :delete do %>
+<label for="product_id">Product ID:</label>
+<input type="text" name="product_id" id="product_id" required>
+<%= submit_tag "Remove from Cart" %>
+<% end %>

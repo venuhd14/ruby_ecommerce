@@ -1,0 +1,7 @@
+<h1>Order Confirmation</h1>
+
+<p>Your order has been placed successfully!</p>
+<p>Total Price: <%= number_to_currency(@order.total_price) %></p>
+
+<%= link_to 'Back to Products', products_path %> |
+<%= link_to 'Home', root_path %>

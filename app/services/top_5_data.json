@@ -1,0 +1,173 @@
+[
+  {
+    "link_site_id": "qu-13-160011",
+    "planned_kiosk_type": "Link5G_NonAd",
+    "link_installation_status": "Live",
+    "boro": "Queens",
+    "council_district": "31",
+    "community_board": "413",
+    "street_address": "241-01 135 AVENUE",
+    "cross_street_1": "242nd ST",
+    "cross_street_2": "241st ST",
+    "ixn_corner": "SW",
+    "postcode": "11422",
+    "zoning": "R2",
+    "latitude": "40.6717",
+    "longitude": "-73.73323",
+    "link_installation": "2024-02-23T00:00:00.000",
+    "link_smoke_tested_and_activated_a": "2024-10-03T00:00:00.000",
+    "neighborhood_tabulation_area_nta": "Rosedale",
+    "building_identification_number_bin": "4283966",
+    "borough_block_lot_bbl": "4132220001",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.73323,
+        40.6717
+      ]
+    },
+    ":@computed_region_efsh_h5xi": "24018",
+    ":@computed_region_f5dn_yrer": "63",
+    ":@computed_region_yeji_bk3q": "3",
+    ":@computed_region_92fq_4b7q": "47",
+    ":@computed_region_sbqj_enih": "63"
+  },
+  {
+    "link_site_id": "mn-03-158821",
+    "planned_kiosk_type": "Link5G_Ad",
+    "link_installation_status": "Live",
+    "boro": "Manhattan",
+    "council_district": "1",
+    "community_board": "103",
+    "street_address": "36 RIVINGTON STREET",
+    "cross_street_1": "RIVINGTON STREET",
+    "cross_street_2": "STANTON STREET",
+    "ixn_corner": "NE",
+    "postcode": "10002",
+    "zoning": "C4-4A",
+    "latitude": "40.72111",
+    "longitude": "-73.991366",
+    "link_installation": "2022-10-18T00:00:00.000",
+    "link_smoke_tested_and_activated_a": "2023-02-03T00:00:00.000",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.991366,
+        40.72111
+      ]
+    },
+    ":@computed_region_efsh_h5xi": "11723",
+    ":@computed_region_f5dn_yrer": "70",
+    ":@computed_region_yeji_bk3q": "4",
+    ":@computed_region_92fq_4b7q": "32",
+    ":@computed_region_sbqj_enih": "2"
+  },
+  {
+    "link_site_id": "mn-12-134409",
+    "planned_kiosk_type": "Link1.0",
+    "link_installation_status": "Live",
+    "smallest_ppt": "134409",
+    "cb_link_id": "LINK-002209",
+    "boro": "Manhattan",
+    "council_district": "10",
+    "community_board": "112",
+    "street_address": "4791 BROADWAY",
+    "cross_street_1": "CUMMING STREET",
+    "cross_street_2": "ACADEMY STREET",
+    "ixn_corner": "NW",
+    "postcode": "10034",
+    "zoning": "C1-4",
+    "latitude": "40.866152",
+    "longitude": "-73.925806",
+    "link_installation": "2022-02-10T00:00:00.000",
+    "link_smoke_tested_and_activated_a": "2022-05-18T00:00:00.000",
+    "neighborhood_tabulation_area_nta": "Marble Hill-Inwood",
+    "building_identification_number_bin": "1064947",
+    "borough_block_lot_bbl": "1022370059",
+    "census_tract_ct": "1029500",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.925806,
+        40.866152
+      ]
+    },
+    ":@computed_region_efsh_h5xi": "13092",
+    ":@computed_region_f5dn_yrer": "47",
+    ":@computed_region_yeji_bk3q": "4",
+    ":@computed_region_92fq_4b7q": "39",
+    ":@computed_region_sbqj_enih": "22"
+  },
+  {
+    "link_site_id": "mn-03-122031",
+    "planned_kiosk_type": "Link1.0",
+    "link_installation_status": "Live",
+    "smallest_ppt": "122031",
+    "cb_link_id": "mn-03-122031",
+    "boro": "Manhattan",
+    "council_district": "2",
+    "community_board": "103",
+    "street_address": "440 EAST 14 STREET",
+    "cross_street_1": "AVENUE A",
+    "cross_street_2": "1 AVENUE",
+    "ixn_corner": "SW",
+    "postcode": "10009",
+    "zoning": "C1-6A",
+    "latitude": "40.730496",
+    "longitude": "-73.980768",
+    "link_installation": "2017-04-02T00:00:00.000",
+    "link_smoke_tested_and_activated_a": "2017-07-21T00:00:00.000",
+    "neighborhood_tabulation_area_nta": "East Village",
+    "building_identification_number_bin": "1006019",
+    "borough_block_lot_bbl": "1004410029",
+    "census_tract_ct": "1003400",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.980768,
+        40.730496
+      ]
+    },
+    ":@computed_region_efsh_h5xi": "11729",
+    ":@computed_region_f5dn_yrer": "70",
+    ":@computed_region_yeji_bk3q": "4",
+    ":@computed_region_92fq_4b7q": "50",
+    ":@computed_region_sbqj_enih": "5"
+  },
+  {
+    "link_site_id": "mn-04-123494",
+    "planned_kiosk_type": "Link1.0",
+    "link_installation_status": "Live",
+    "smallest_ppt": "123494",
+    "cb_link_id": "mn-04-123494",
+    "boro": "Manhattan",
+    "council_district": "3",
+    "community_board": "104",
+    "street_address": "200 WEST 23 STREET",
+    "cross_street_1": "7 AVENUE",
+    "cross_street_2": "8 AVENUE",
+    "ixn_corner": "SW",
+    "postcode": "10011",
+    "zoning": "C6-3X",
+    "latitude": "40.744114",
+    "longitude": "-73.995892",
+    "link_installation": "2017-10-07T00:00:00.000",
+    "link_smoke_tested_and_activated_a": "2018-01-03T00:00:00.000",
+    "neighborhood_tabulation_area_nta": "Hudson Yards-Chelsea-Flatiron-Union Square",
+    "building_identification_number_bin": "1014127",
+    "borough_block_lot_bbl": "1007720047",
+    "census_tract_ct": "1009100",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.995892,
+        40.744114
+      ]
+    },
+    ":@computed_region_efsh_h5xi": "12074",
+    ":@computed_region_f5dn_yrer": "12",
+    ":@computed_region_yeji_bk3q": "4",
+    ":@computed_region_92fq_4b7q": "10",
+    ":@computed_region_sbqj_enih": "6"
+  }
+]

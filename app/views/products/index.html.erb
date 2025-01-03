@@ -1,0 +1,17 @@
+<div class="product-grid">
+    <% @products.each do |product| %>
+    <div class="product-item">
+        <%= link_to product_path(product) do %>
+        <h2><%= product.name %></h2>
+
+        <p><%= number_to_currency(product.price) %></p>
+
+        <% end %>
+    </div>
+    <% end %>
+</div>
+
+
+<div class="back-to-home">
+    <%= link_to 'Back to Home', root_path %>
+</div>

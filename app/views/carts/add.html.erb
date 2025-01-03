@@ -1,0 +1,11 @@
+<h1>Add Product to Cart</h1>
+<div class="cart-grid">
+    <div class="cart-detail-item">
+    </div>
+
+    <%= form_with url: add_cart_path, method: :post do %>
+    <label for="product_id">Product ID:</label>
+    <input type="text" name="product_id" id="product_id" required>
+    <%= submit_tag "Add to Cart" %>
+    <% end %>
+</div>

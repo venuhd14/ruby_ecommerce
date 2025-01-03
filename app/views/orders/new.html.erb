@@ -1,0 +1,19 @@
+<h1>Create Order</h1>
+
+<%= form_for @order do |form| %>
+<h3>Products in your cart:</h3>
+
+<% if @products.any? %>
+<% @products.each do |product| %>
+<div>
+    <%= product.name %> - <%= number_to_currency(product.price) %>
+</div>
+<% end %>
+
+<!-- Hidden user_id field -->
+<%= form.hidden_field :user_id, value: current_user.id %>
+<%= form.submit "Place Order" %>
+<% else %>
+<p>Your cart is empty!</p>
+<% end %>
+<% end %>

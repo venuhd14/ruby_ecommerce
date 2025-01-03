@@ -1,0 +1,9 @@
+.home-banner {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+
+.home-featured {
+    display: flex;
+    justify-content: space-around;
+}
